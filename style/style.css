@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+main {
+    max-width: 80%;
+}
+label{
+    display: block;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch ;
+}
