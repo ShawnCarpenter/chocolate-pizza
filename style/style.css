@@ -1,17 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
 body {
     background-color: white;
     color: black;
+    display: flex;
+    flex-direction: column;
+    width: 905px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
 }
 
+
+
 main {
-    max-width: 80%;
+    max-width: 100%;
 }
 label{
     display: block;
 }
 
 .recipe {
+    font-size: 20px;
+    font-family: 'Neucha', cursive;
+    padding: 20px;
+    background-image: url(/assets/list-bg.png);
     display: flex;
     flex-direction: row;
-    justify-content:stretch ;
+    justify-content: space-evenly;
+}
+
+li {
+    padding: 5px;
+    list-style: none;
+}
+footer {
+    width: 100%;
+}
+.footer-top {
+    display: grid;
+    grid-template-columns: 72px 1fr 200px;
+}
+div {
+    border: 2px solid magenta;
+}
+article {
+    width: 905px;
+}
+.picture{
+    width: 100%;
+}
+ul {
+    padding: 8px;
 }
