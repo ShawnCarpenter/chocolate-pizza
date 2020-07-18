@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Yellowtail&family=Oswald:wght@700&display=swap');
 
 body {
     background-color: white;
@@ -12,11 +12,43 @@ body {
 
 }
 
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.header-left p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8pt;
+}
+.header-left span {
+    display: inline-block;
+}
+h2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 33pt;
+}
 
 main {
     max-width: 100%;
 }
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32pt;
+}
+
+.dateline {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: lighter;
+    color: grey;
+}
+
 label{
     display: block;
 }
@@ -54,3 +86,4 @@ article {
 ul {
     padding: 8px;
 }
+
