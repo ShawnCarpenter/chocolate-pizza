@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Yellowtail&family=Oswald:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Neuton:wght@200&family=Yellowtail&family=Oswald:wght@700&display=swap');
 body {
     background-color: white;
     color: black;
@@ -32,6 +31,9 @@ h2 {
 }
 
 main {
+    border-style: top_bottom;
+    border: dashed 6px black;
+  
     max-width: 100%;
 }
 
@@ -87,3 +89,30 @@ ul {
     padding: 8px;
 }
 
+article p, .bio {
+    
+    font-family: 'Neuton', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-indent: 20pt;
+    padding: 10px;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: chocolate ;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    border: none;
+    font-weight: lighter;
+
+}
+.bio {
+    text-indent: 0px;
+}
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
