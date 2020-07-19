@@ -15,6 +15,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
 
 }
 
@@ -31,15 +32,13 @@ h2 {
 }
 
 main {
-    border-style: top_bottom;
-    border: dashed 6px black;
-  
     max-width: 100%;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 32pt;
+    padding: 50px 0px 10px 0px;
 }
 
 .dateline {
@@ -49,7 +48,7 @@ h1 {
     font-size: 10pt;
     font-weight: lighter;
     color: grey;
-}
+    padding-bottom: 27px;
 
 label{
     display: block;
@@ -59,26 +58,23 @@ label{
     font-size: 20px;
     font-family: 'Neucha', cursive;
     padding: 20px;
+    height: 310px;
     background-image: url(/assets/list-bg.png);
+    background-size: 905px 305px;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-
-li {
-    padding: 5px;
-    list-style: none;
-}
-footer {
-    width: 100%;
+899
 }
 .footer-top {
     display: grid;
     grid-template-columns: 72px 1fr 200px;
 }
-div {
+/* div {
     border: 2px solid magenta;
-}
+} */
 article {
     width: 905px;
 }
@@ -115,4 +111,10 @@ button {
     justify-content: center;
     align-items: center;
 
+}
+
+.border {
+    background-image: url('/assets/border.jpg');
+    width: 100%;
+    height: 15px;
 }
