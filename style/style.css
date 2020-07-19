@@ -60,6 +60,7 @@ label{
     font-family: 'Neucha', cursive;
     padding: 20px;
     background-image: url(/assets/list-bg.png);
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
