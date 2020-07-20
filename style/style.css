@@ -56,13 +56,9 @@ h1 {
     font-family: 'Neucha', cursive;
     padding: 20px;
     height: 310px;
-    background-image: url(/assets/list-bg.png);
-<<<<<<< HEAD
-    background-size: cover;
-=======
+    background-image: url(../assets/list-bg.png);
     background-size: 905px 305px;
     background-repeat: no-repeat;
->>>>>>> 2e99c846b7609f862f6d86d3a9271b7a251e0807
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
