@@ -56,7 +56,7 @@ h1 {
     font-family: 'Neucha', cursive;
     padding: 20px;
     height: 310px;
-    background-image: url(/assets/list-bg.png);
+    background-image: url(../assets/list-bg.png);
     background-size: 905px 305px;
     background-repeat: no-repeat;
     display: flex;
